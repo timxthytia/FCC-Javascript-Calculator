@@ -1,0 +1,47 @@
+#background {
+  background-color: purple;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator{
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 80vh;
+  border: 3px solid rgb(67, 65, 65);
+  background-color: black;
+}
+
+#answer {
+  font-size: 48px;
+  height: 48px;
+}
+
+#expression {
+  font-size: 30px;
+  height: 30px;
+  color: var(--dark-gray);
+}
+
+#display {
+  grid-area: display;
+}
+
+.keypad{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  height: 100%;
+  padding: 3px;
+}
+
+button{
+  font-size: 25px;
+  cursor: pointer;
+  margin: 3px;
+}
